@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<!-- saved from url=(0097)https://storage.googleapis.com/supplemental_media/udacityu/2730818600/bootstrap-prestructure.html -->
+<head>
+<title> My Portfolio</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+
+<body>
+  <div class="container">
+    <header id="unique">
+      <div class="col-md-2"><img src="img/flogo.png" alt="logo" class="imges" ></div>
+      <div class="col-md-10 text-uppercase text-right">
+        <h1>Fatma Hammam</h1>
+        <h3>Full Stack Ninja</h3>
+      </div>
+    </header>
+    
+    <!--This is to draw a Line-->
+    <div class="row"><div class="col-md-12"><hr></div></div>
+    
+    <!--This section contains the main picture that displayes in the middle of the page-->
+    <main id="center">
+      <div class="row">
+        <div class="col-md-12">
+          <img src="img/main.jpg" alt="main image" class="imges">
+        </div> 
+      </div>
+    </main>
+    
+    <!--Section to display the Featured Work-->
+    <section>
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Featured Work</h2>
+        </div> 
+      </div>
+     
+      <div class="row  text-center">
+       <!--First tech pic-->
+       <div class="col-md-4">
+         <img src="img/tech1.jpg" alt="tech1" class="imges"  data-toggle="modal" data-target="#myModalone" >
+         <h3>python</h3>
+         <p><a href="http://github.com/" target="_blank">Link to project</a></p>
+       </div>
+       <!--Second tech pic-->
+        <div class="col-md-4">
+         <img src="img/tech2.png" alt="tech2" class="imges"  data-toggle="modal" data-target="#myModaltwo" >
+         <h3>Html and css</h3>
+         <p><a href="http://github.com/" target="_blank">Link to project</a></p>
+       </div>
+       <!--Third tech pic-->
+        <div class="col-md-4 ">
+         <img src="img/tech3.jpg" alt="tech3" class="imges"  data-toggle="modal" data-target="#myModalthree" >
+         <h3>Java Script</h3>
+          <p><a href="http://github.com/" target="_blank"> Link to project</a></p>
+        </div>
+    </section>
+    <footer>
+      <div class="row"><div class="col-md-12"><hr></div></div>
+    </footer>
+  </div> 
+
+
+
+  <!-- Modal (1) -->
+<div id="myModalone" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img src="img/tech1.jpg" alt="tech1" class="imges">
+        <p>I learned a lot from this course.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Modal (2) -->
+<div id="myModaltwo" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img src="img/tech2.png" alt="tech2" class="imges">
+        <p>Tech Trends.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- Modal (3) -->
+<div id="myModalthree" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img src="img/tech3.jpg" alt="tech3" class="imges">
+        <p>I learned a lot from this course.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+</body>  
+</html>
