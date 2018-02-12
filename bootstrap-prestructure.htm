@@ -3,13 +3,12 @@
 <!-- saved from url=(0097)https://storage.googleapis.com/supplemental_media/udacityu/2730818600/bootstrap-prestructure.html -->
 <head>
 <title> My Portfolio</title>
-<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
-<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </head>
 
 
@@ -17,12 +16,14 @@
 <!--container class to hold the bootstrab classes-->
   <div class="container">
 <!--The header of my page-->
-    <header id="unique">
-      <div class="col-md-2"><img src="img/flogo.png" alt="logo" class="imges logo" ></div>
-      <div class="col-md-10 text">
+    <header class="row">
+      <div class="col-md-2 logo">
+        <img src="img/flogo.png" alt="logo" class="imges " >
+      </div>
+      <div class="col-md-10 my-name">
         <h1>Fatma Hammam</h1>
         <h3>Full Stack-Ninja</h3>
-      </div>
+        </div>
     </header>
     
 
@@ -31,7 +32,7 @@
     
 
     <!--This section contains the main picture that displayes in the middle of the page-->
-    <main class="cover-container">
+    <main>
       <div class="row">
         <div class="col-md-12">
           <img src="img/main.jpg" alt="main image" class="imges main">
@@ -41,10 +42,10 @@
     
 
     <!--Section to display the Featured Work-->
-    <section>
+    <section id="my-section">
       <div class="row">
         <div class="col-md-12">
-          <h2><strong>Featured Work</h2>
+          <h2><strong>Featured Work</strong></h2>
         </div> 
       </div>
      
@@ -70,6 +71,7 @@
          <h3>Java Script</h3>
           <p><a href="http://github.com/" target="_blank"> Link to project</a></p>
         </div>
+      </div>
     </section>
     
 
