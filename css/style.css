@@ -26,10 +26,9 @@ body {
 	
 .row {
   width: 100%;
-  display: flex;
-  flex-wrap: wrap;
+ 
+  
 }
-
 
 h1,h2,h3 {
 	font-weight: 500;
@@ -39,7 +38,6 @@ h1,h2,h3 {
 	text-transform: uppercase;
  	text-align: right;
   	font-weight: normal;
-  	float: right;
 }
 
 .section,#my-section {
@@ -69,9 +67,13 @@ p {
 
 	.my-name{
 		width: 100%;
-    	text-align: right;
+    	text-align: center;
     	padding: 0;
     	margin: 0;
+	}
+	.col-md-2{
+		max-width: 100%;
+		text-align: center;
 	}
 } 
 
