@@ -1,14 +1,15 @@
-html {
-  position:relative; 
-  min-height: 100%;
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
 }
-body {
 
+body {
 	font-family: "Lato", sans-serif;
 	color: #042377;
 	margin: 0;
-	}
-
+}
 
 /**main container**/
 .container {
@@ -16,7 +17,8 @@ body {
 	flex-wrap: wrap;
 	max-width:980px;
 	width: 100%;
-		}
+}
+
 .header {
 	flex-wrap: wrap;
 	margin-right: 0;
@@ -24,53 +26,31 @@ body {
 	
 .row {
   width: 100%;
+  display: flex;
   flex-wrap: wrap;
-	}
+}
 
 
 h1,h2,h3 {
 	font-weight: 500;
-	}
-
-
-.imges {
-	width: 100%;
-
-	}
-
-
-.logo {
-  	width:130px;
-  	height:130px;
-	}
+}
 
 .my-name {
 	text-transform: uppercase;
  	text-align: right;
   	font-weight: normal;
   	float: right;
-	}
+}
 
 .section,#my-section {
 	flex-wrap: wrap;
 }
 
-.main {
-	max-width: 100%;
-  	height:auto;
-  	display: block;
-	}
-
 .border {
 	text-transform: uppercase;
 	text-align: center;
 	font-weight: normal;
-	}
-
-.tech-pic {
-	max-width: 100%;
-	height: 250px;
-	}
+}
 
 .footer {
 	position: absolute;
@@ -81,49 +61,35 @@ h1,h2,h3 {
 
 p {
 	color: black;
-	}
+}
 
 /*Adding the media queries to make the website responsive when resizing the screen*/
 
+@media screen and (max-width: 550px) {
 
-@media screen and (max-width: 730px) {
-
-	.col-md-4 {
+	.my-name{
+		width: 100%;
+    	text-align: right;
+    	padding: 0;
+    	margin: 0;
+	}
+	.cover{
 		max-width: 100%;
-		
-	}
-	.main {
-		width: 100%;
-
-	}
-	.col-md-2 {
-		width: 100%
-	}
-	.col-md-10 {
-		width: 100%;
-	}
-	.my-name {
-		text-align: center;
-	}
-	.logo {
-		height: 150px;
-		width: 150px;
-		text-align: center;
-
-	}
-	h2 {
-		text-align: center;
-		font-size: 2em;
 	}
 
 } 
 
-@media screen and (min-width: 731px) {
-.border {
-	display: inline-flex;	
+@media screen and (max-width: 768px) {
+	
+	.border {
+		flex-flow: wrap column;
 	}
+
 	.col-md-4 {
-		max-width: 50%;
+		max-width: 100%;
+	}
+	.tech-pic{
+		max-width: 100%;
 	}
 
 }
