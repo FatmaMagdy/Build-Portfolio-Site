@@ -62,10 +62,6 @@ p {
     	padding: 0;
     	margin: 0;
 	}
-	.col-md-2{
-		max-width: 100%;
-		text-align: center;
-	}
 } 
 
 @media screen and (max-width: 800px) {
